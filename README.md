@@ -1,0 +1,2 @@
+# LanguageDetectionModel
+The following notebook contains language detection model. We will be needing a multilingual system to achieve and we have choosen XML-Roberta which have been trained on multiple languages. We have generate a sentence embedding by using XML-Roberta base and fet it through a vanilla neural network to do the classification. Finally we have backpropagated the entire network with cross entropy loss. We have achieved a F1-Score for the entire network to be 0.98.
